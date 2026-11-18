@@ -44,7 +44,7 @@ const uint16_t highSpeedReverse = 2000;  // high speed reverse (capped)
 
 // Ethernet setup
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(192, 168, 1, 177);
+IPAddress ip(192, 168, 10, 2);
 unsigned int port = 5000;
 EthernetServer tcpServer(port);
 
